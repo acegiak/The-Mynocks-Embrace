@@ -1,0 +1,18 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+Exception: Sayer 'l' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "/home/acegiak/script.rpyc", line 56, in script
+  File "/home/acegiak/dev/renpy-6.99.10-sdk/renpy/ast.py", line 584, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "/home/acegiak/dev/renpy-6.99.10-sdk/renpy/ast.py", line 501, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
+Exception: Sayer 'l' is not defined.
+
+Linux-4.4.0-24-generic-x86_64-with-debian-stretch-sid
+Ren'Py 6.99.10.1227
+The Mynock's Embrace 0.0
