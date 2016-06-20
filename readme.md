@@ -10,3 +10,5 @@ The game is written in Renpy and hosted on github to make it as easy as possible
 
 **Add renpy tutorial links here**
 
+Also let's make a point of not using art that we don't have permission to use for this project.
+
